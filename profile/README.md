@@ -47,4 +47,4 @@ We keep our open-source security core verifiable and free for individual local u
 
 - **Measured, Not Claimed:** Security filters, secret masking, data fencing, and retrieval metrics are backed by reproducible open benchmark runners and sealed red-team evaluations.
 - **No Unverified Custody:** Self-custodial keys (`Ed25519`, `X-Wing` hybrid PQC, `AES-256-GCM`, Shamir recovery); server/local forgetting (`forget`) includes crypto-shredding of record keys and deletion receipts.
-- **Responsible Disclosure:** Report vulnerabilities privately to [`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com) (see [`SECURITY.md`](./SECURITY.md)).
+- **Responsible Disclosure:** Report vulnerabilities privately to [`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com) (see [`SECURITY.md`](https://github.com/CodeOfDigitalEternity/.github/blob/main/SECURITY.md)).
