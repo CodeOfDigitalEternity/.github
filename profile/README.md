@@ -30,6 +30,14 @@
 
 ---
 
+
+<details open>
+<summary><strong>▶ Watch 28-second Live Engine Run (PADAM NOCTURNE v0.7.2 + Agentic Shield)</strong></summary>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MaksimGalatin/padam-nocturne/main/docs/assets/padam-nocturne-demo.gif" alt="PADAM NOCTURNE v0.7.2 Live Engine &amp; Agentic Shield Demo" width="100%" />
+</p>
+</details>
+
 ## Which Product Do You Need? (Local vs. Hosted Cloud)
 
 | Capability | [**`PADAM · NOCTURNE`**](https://github.com/MaksimGalatin/padam-nocturne) (`v0.7.2`) | [**`AIfa Memory MCP`**](https://github.com/MaksimGalatin/aifa-memory-mcp) (`v1.9.8`) |
