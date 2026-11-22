@@ -2,49 +2,75 @@
   <img src="./banner.svg" alt="CODE | Code of Digital Eternity" width="100%" />
 </p>
 
-<h1 align="center">CODE Eternal · Digital Memory, Agentic Security & Cryptographic Permanence</h1>
+<h1 align="center">CODE Eternal · Sovereign AI Agent Memory &amp; Agentic Security</h1>
+
+<p align="center">
+  <a href="https://pypi.org/project/padam-nocturne/"><img src="https://img.shields.io/pypi/v/padam-nocturne?style=flat-square&logo=pypi&color=0EA5E9" alt="PyPI padam-nocturne" /></a>
+  <a href="https://github.com/MaksimGalatin/padam-nocturne/stargazers"><img src="https://img.shields.io/github/stars/MaksimGalatin/padam-nocturne?style=flat-square&logo=github&color=F59E0B&label=padam-nocturne" alt="padam-nocturne stars" /></a>
+  <a href="https://github.com/MaksimGalatin/aifa-memory-mcp/stargazers"><img src="https://img.shields.io/github/stars/MaksimGalatin/aifa-memory-mcp?style=flat-square&logo=github&color=F59E0B&label=aifa-memory-mcp" alt="aifa-memory-mcp stars" /></a>
+  <a href="https://mcptry.com/servers/works.aifa/aifa-memory"><img src="https://mcptry.com/badge/works.aifa/aifa-memory" alt="mcptry AIfa Memory" /></a>
+  <a href="https://hol.org/guard/extensions/mcp.padam-nocturne"><img src="https://img.shields.io/badge/HOL_Guard-PADAM_%2B_AIfa_Covered-22C55E?style=flat-square" alt="HOL Guard Coverage" /></a>
+  <a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP_Registry-Official_v0.7.2_%2F_v1.9.8-6366F1?style=flat-square" alt="Official MCP Registry" /></a>
+  <a href="https://aifa.works/shield"><img src="https://img.shields.io/badge/Express_Scanner-aifa.works%2Fshield-14B8A6?style=flat-square" alt="Free Browser Scanner" /></a>
+</p>
 
 <p align="center">
   <a href="https://www.codeofdigitaleternity.com"><img src="https://img.shields.io/badge/Central-codeofdigitaleternity.com-0EA5E9?style=flat-square" alt="codeofdigitaleternity.com" /></a>
   <a href="https://aifa.works"><img src="https://img.shields.io/badge/Platform-aifa.works-14B8A6?style=flat-square" alt="aifa.works" /></a>
   <a href="https://aifa.digital"><img src="https://img.shields.io/badge/Portal-aifa.digital-6366F1?style=flat-square" alt="aifa.digital" /></a>
   <a href="https://radiocode.space"><img src="https://img.shields.io/badge/Radio-radiocode.space-F59E0B?style=flat-square" alt="radiocode.space" /></a>
-  <img src="https://img.shields.io/badge/Entity-CODE%20Eternal%20LLC%20(NM%20%230008138873)-1E293B?style=flat-square" alt="CODE Eternal LLC" />
+  <img src="https://img.shields.io/badge/Entity-CODE_Eternal_LLC_(NM_%230008138873)-1E293B?style=flat-square" alt="CODE Eternal LLC" />
 </p>
 
-**CODE Eternal LLC** builds sovereign, tamper-evident AI memory, runtime firewalling for AI agents, and cryptographic permanence tools designed for Human–AI Symbiosis.
+**CODE Eternal LLC** builds local-first, tamper-evident memory for AI agents, deterministic prompt-injection &amp; secret-leakage firewalls (zero cloud telemetry), and cryptographic permanence tools.
 
-- **Sole Founder, Architect & 100% Owner:** Maksim Galatin (`Maksim Halatsin`)
+- **Sole Founder, Architect &amp; 100% Owner:** Maksim Galatin (`Maksim Halatsin`)
 - **Legal Entity:** CODE Eternal LLC · State of New Mexico, USA · Entity ID `0008138873`
-- **Security & Licensing Contact:** [`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com) · `codeofdigitaleternity@gmail.com`
+- **Security, Enterprise Licensing &amp; Contact:** [`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com) · `codeofdigitaleternity@gmail.com`
 
 ---
 
-## Core Repositories & Products
+## Which Product Do You Need? (Local vs. Hosted Cloud)
 
-| Repository / Product | Role | License |
+| Capability | [**`PADAM · NOCTURNE`**](https://github.com/MaksimGalatin/padam-nocturne) (`v0.7.2`) | [**`AIfa Memory MCP`**](https://github.com/MaksimGalatin/aifa-memory-mcp) (`v1.9.8`) |
 |---|---|---|
-| [**`padam-nocturne`**](https://github.com/MaksimGalatin/padam-nocturne) | Local-first encrypted AI agent memory (`1` SQLite file), **PADAM Agentic Shield v2** (SRI/CSP/Magecart, anti-poisoning, anti-replay, canary kill-switch, SIEM webhooks), **PADAM Studio** UI, **MCP server**, & L3 proofs (`Arweave` + `Solana` + `Bitcoin OTS`) | **`AGPL-3.0-only`** (Core) · **`Apache-2.0`** (CI Action) · **Commercial MSA** |
-| [**`aifa-memory-mcp`**](https://github.com/MaksimGalatin/aifa-memory-mcp) | Hosted Streamable HTTP MCP endpoint (`aifa.works/api/mcp`) connecting Claude, Cursor, and VS Code to unified account memory, partner links, and Arweave/Solana vaults | **`MIT`** (Docs & Registry Manifest) · **CODE Platform Terms** (Hosted SaaS) |
-| [**`aifa-biobench`**](https://github.com/MaksimGalatin/aifa-biobench) | Open, Bitcoin-timestamped FlyWire v783 connectome retrieval & agent benchmarks — publishing both wins and baseline losses verbatim | **`PolyForm Noncommercial 1.0.0`** · **Commercial Pro** |
-| **Unified 4-Site Ecosystem** | `codeofdigitaleternity.com` · `aifa.works` · `aifa.digital` · `radiocode.space` — Unified cabinet, AIfa chat + 10 MB document parsing, `AIfaFocus` enterprise B2B, `Agentic Shield`, & Autonomous Digital/Freelance rails | **Commercial SaaS & Platform Terms** |
+| **Architecture** | **100% Local** — single SQLite file on your machine (`$0` cloud telemetry) | **Hosted Cloud** — Streamable HTTP endpoint (`https://aifa.works/api/mcp`) |
+| **Quick Start** | `uvx padam-nocturne` · `pip install padam-nocturne && padam setup --all` | Connect URL + per-user `Authorization: Bearer` key from [aifa.works/mcp](https://aifa.works/mcp) |
+| **Apps &amp; Clients** | MCP (`13` clients) · CLI · REST · **PADAM Studio** (Win / Linux / macOS) · **Android APK** · Chrome / Firefox / VS Code extensions | Claude Code · Claude Desktop · Cursor · VS Code · Windsurf · Codex · Antigravity + 4 unified web portals |
+| **Data &amp; Encryption Boundaries** | L2 local SQLite (`PRAGMA secure_delete = ON`, pair with OS FDE for data-at-rest); per-record `AES-256-GCM` client-side encryption for optional L3 Arweave / backups / sync &amp; crypto-shredding (`padam protect-keys`) | Hosted Neon PostgreSQL vault + optional client-side per-record `AES-256-GCM` Arweave anchoring + full Markdown/JSON export anytime |
+| **Security Controls** | 4-Ring **Agentic Shield**: owner quarantine (`PADAM_STRICT=1`), pre-write DLP secret masking, 128-bit nonce data fencing, SHA-256 MCP tool-schema pinning, outbound payee-swap guard, `Apache-2.0` CI Action (`SARIF 2.1.0`) | Scoped memory-only keys (`{"scope":"memory"}`), write secret masking, command filter, fenced read output, live [`scripts/conformance.py`](https://github.com/MaksimGalatin/aifa-memory-mcp) verifier |
+| **Verified Listings** | Official MCP Registry (`io.github.MaksimGalatin/padam-nocturne`), PyPI, HOL Guard (`#7505`), `mcptry` (`30/30` listing), `Sagargupta16` | Official MCP Registry (`works.aifa/aifa-memory`), HOL Guard (`#8324`), `mcptry` (`Working 99`, `Security A`), Glama (`v1.9.8`), `Sagargupta16` |
+| **Exact License** | **`AGPL-3.0-only`** (Core &amp; Studio) · **`Apache-2.0`** (GitHub CI Action) · **Commercial License / MSA** | **`MIT`** (Docs, Registry Manifest, Configs &amp; Conformance Runner) · **CODE Platform Terms** (Hosted SaaS) |
 
 ---
 
-## Four-Way Licensing & Commercial Architecture
+## Core Repositories &amp; Exact Licensing Matrix
 
-We keep our open-source security core verifiable and free for individual local use while cleanly protecting enterprise integrations and hosted platform infrastructure:
-
-1. **Local Personal & Research Use (`AGPL-3.0-only`):** Free forever when running `padam-nocturne` locally (`SQLite + MCP + Studio`) or modifying under open AGPL-3.0 terms.
-2. **CI/CD Pipelines (`Apache-2.0`):** `.github/actions/padam-agentic-shield/` is licensed under Apache-2.0 with explicit patent grant — safe for private CI/CD pipelines without copyleft contagion.
-3. **Enterprise B2B & Proprietary Embedding (`Commercial License / MSA`):** Required for closed-source products, proprietary SaaS security platforms without AGPL source disclosure, Zero-Telemetry DPAs, SLA, and IP indemnity ([`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com)).
-4. **Scientific Benchmarks (`PolyForm Noncommercial 1.0.0` + `Commercial Pro`):** Non-commercial research is free; commercial engine use (`aifa-biobench-pro`) requires a written commercial license.
-5. **Hosted SaaS & Revenue-Share Rails:** Hosted eternal storage (`Spark` / `Family Archive` / `Digital DNA`), `AIfaFocus` B2B remediation, and managed freelance/digital-store rails (`15%–20%` revenue share) operate under the [CODE Eternal Platform Terms](https://www.codeofdigitaleternity.com/code-terms-of-service-ethical-protection-statement).
+| Repository / Product | Role | Exact License |
+|---|---|---|
+| [**`MaksimGalatin/padam-nocturne`**](https://github.com/MaksimGalatin/padam-nocturne) | Local SQLite AI memory (`v0.7.2`, `1,704` automated tests), **PADAM Agentic Shield**, **PADAM Studio** (Win/Linux/macOS), signed **Android APK**, browser &amp; VS Code extensions, optional L3 anchoring (`Arweave` + `Solana` + `Bitcoin OTS`) | **`AGPL-3.0-only`** (Core &amp; Studio) · **`Apache-2.0`** (`.github/actions/padam-agentic-shield/`) · **Commercial MSA** |
+| [**`MaksimGalatin/aifa-memory-mcp`**](https://github.com/MaksimGalatin/aifa-memory-mcp) | Hosted Streamable HTTP MCP specification (`v1.9.8`), client templates, `server.json` manifest, `HOSTED-POLICY.md`, and live `scripts/conformance.py` verifier | **`MIT`** (Public repo docs/examples/conformance) · **CODE Platform Terms** (Closed-source hosted backend) |
+| [**`MaksimGalatin/aifa-biobench`**](https://github.com/MaksimGalatin/aifa-biobench) | Open, Bitcoin-timestamped FlyWire v783 connectome retrieval &amp; agent benchmarks — publishing both wins and baseline losses verbatim | **`PolyForm Noncommercial 1.0.0`** · **Commercial Pro License** |
+| **Browser Express Scanner ([`aifa.works/shield`](https://aifa.works/shield))** | 100% client-side `mcp.json` &amp; Web SRI/CSP security checker running strictly inside your browser tab (zero data uploaded) | **Free public web tool** (CODE Eternal LLC) |
+| **Unified 4-Site Ecosystem** | `aifa.works` · `codeofdigitaleternity.com` · `aifa.digital` · `radiocode.space` — AIfa cabinet, `AIfaFocus` accessibility audits, `PADAM Agentic Shield` | **Commercial SaaS &amp; [CODE Platform Terms](https://www.codeofdigitaleternity.com/code-terms-of-service-ethical-protection-statement)** |
 
 ---
 
-## Security & Trust Principles
+## Clear Licensing Architecture &amp; AGPL-3.0 FAQ
 
-- **Measured, Not Claimed:** Security filters, secret masking, data fencing, and retrieval metrics are backed by reproducible open benchmark runners and sealed red-team evaluations.
-- **No Unverified Custody:** Self-custodial keys (`Ed25519`, `X-Wing` hybrid PQC, `AES-256-GCM`, Shamir recovery); server/local forgetting (`forget`) includes crypto-shredding of record keys and deletion receipts.
+We keep our security engine open, inspectable, and free forever for individual and local workflows while protecting against closed-source SaaS appropriation:
+
+- **Does using `padam-nocturne` locally via MCP with Claude Code / Cursor / VS Code require open-sourcing my project?**
+  **No.** Running `padam-nocturne` locally as a standalone MCP tool or desktop app alongside your proprietary codebase does **not** trigger AGPL-3.0 copyleft on your own code.
+- **Can I use the PADAM Agentic Shield GitHub Action in private corporate repositories?**
+  **Yes.** `.github/actions/padam-agentic-shield/` is licensed under **`Apache-2.0`** with an explicit patent grant — safe for private CI/CD pipelines.
+- **When is a Commercial License (MSA) required?**
+  Only when embedding/modifying `padam-nocturne` inside a proprietary closed-source product or hosted multi-tenant SaaS without AGPL source disclosure, or when an organization needs Zero-Telemetry DPAs, SLA, and IP indemnity ([`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com)).
+
+---
+
+## Measured, Not Claimed — Security Transparency
+
+- **Reproducible self-reported suites (offline, `$0`):** `1,704` automated tests on `v0.7.2`, `214/214` public red-team cases (`redteam/public_cases.jsonl`), `AIFaSecurity-100` (`Grade S 100/100`, self-reported pending independent external audit), `LongMemEval-S` retrieval (`97.0%` top-5 / `99.2%` top-10 vs `96.0%` / `97.7%` plain BM25).
+- **Honest limitations first:** Read [`docs/SECURITY_REVIEW.md`](https://github.com/MaksimGalatin/padam-nocturne/blob/main/docs/SECURITY_REVIEW.md) — including *"What still gets through"*, every real bug we shipped and fixed, and our open Red Team Challenge.
 - **Responsible Disclosure:** Report vulnerabilities privately to [`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com) (see [`SECURITY.md`](https://github.com/CodeOfDigitalEternity/.github/blob/main/SECURITY.md)).
