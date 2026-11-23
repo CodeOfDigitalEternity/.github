@@ -43,9 +43,9 @@
 
 
 <details open>
-<summary><strong>▶ Watch 28-second Live Engine Run (PADAM NOCTURNE v0.8.0 + Agentic Shield)</strong></summary>
+<summary><strong>▶ Watch 28-second Live Engine Run (PADAM NOCTURNE v0.8.0 + Agentic Shield + AIfa Memory MCP v2.0.0)</strong></summary>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MaksimGalatin/padam-nocturne/main/docs/assets/padam-nocturne-demo.gif" alt="PADAM NOCTURNE v0.8.0 Live Engine &amp; Agentic Shield Demo" width="100%" />
+  <img src="https://raw.githubusercontent.com/MaksimGalatin/padam-nocturne/main/docs/assets/padam-nocturne-demo.gif?v=080-en" alt="PADAM NOCTURNE v0.8.0 Live Engine &amp; Agentic Shield Demo" width="100%" />
 </p>
 </details>
 
