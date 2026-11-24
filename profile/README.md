@@ -10,7 +10,7 @@
   <a href="https://github.com/MaksimGalatin/aifa-memory-mcp/stargazers"><img src="https://img.shields.io/github/stars/MaksimGalatin/aifa-memory-mcp?style=flat-square&logo=github&color=F59E0B&label=aifa-memory-mcp" alt="aifa-memory-mcp stars" /></a>
   <a href="https://mcptry.com/servers/works.aifa/aifa-memory"><img src="https://mcptry.com/badge/works.aifa/aifa-memory" alt="mcptry AIfa Memory" /></a>
   <a href="https://hol.org/guard/extensions/mcp.padam-nocturne"><img src="https://img.shields.io/badge/HOL_Guard-PADAM_%2B_AIfa_Covered-22C55E?style=flat-square" alt="HOL Guard Coverage" /></a>
-  <a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP_Registry-Official_v0.8.0_%2F_v2.1.0-6366F1?style=flat-square" alt="Official MCP Registry" /></a>
+  <a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP_Registry-Official_v0.8.0_%2F_v2.3.0-6366F1?style=flat-square" alt="Official MCP Registry" /></a>
   <a href="https://aifa.works/shield"><img src="https://img.shields.io/badge/Express_Scanner-aifa.works%2Fshield-14B8A6?style=flat-square" alt="Free Browser Scanner" /></a>
 </p>
 
@@ -43,7 +43,7 @@
 
 
 <details open>
-<summary><strong>▶ Watch 28-second Live Engine Run (PADAM NOCTURNE v0.8.0 + Agentic Shield + AIfa Memory MCP v2.1.0)</strong></summary>
+<summary><strong>▶ Watch 28-second Live Engine Run (PADAM NOCTURNE v0.8.0 + Agentic Shield + AIfa Memory MCP v2.3.0)</strong></summary>
 <p align="center">
   <img src="https://raw.githubusercontent.com/MaksimGalatin/padam-nocturne/main/docs/assets/padam-nocturne-demo.gif?v=080-en" alt="PADAM NOCTURNE v0.8.0 Live Engine &amp; Agentic Shield Demo" width="100%" />
 </p>
@@ -51,14 +51,14 @@
 
 ## Which Product Do You Need? (Local vs. Hosted Cloud)
 
-| Capability | [**`PADAM · NOCTURNE`**](https://github.com/MaksimGalatin/padam-nocturne) (`v0.8.0`) | [**`AIfa Memory MCP`**](https://github.com/MaksimGalatin/aifa-memory-mcp) (`v2.1.0` · `18 tools`) |
+| Capability | [**`PADAM · NOCTURNE`**](https://github.com/MaksimGalatin/padam-nocturne) (`v0.8.0`) | [**`AIfa Memory MCP`**](https://github.com/MaksimGalatin/aifa-memory-mcp) (`v2.3.0` · `18 tools`) |
 |---|---|---|
 | **Architecture** | **100% Local** — single SQLite file on your machine (`$0` cloud telemetry) | **Hosted Cloud** — Streamable HTTP endpoint (`https://aifa.works/api/mcp`) |
 | **Quick Start** | `uvx padam-nocturne` · `pip install padam-nocturne && padam setup --all` | Connect URL + per-user `Authorization: Bearer` key from [aifa.works/mcp](https://aifa.works/mcp) |
 | **Apps &amp; Clients** | MCP (`13` clients) · CLI · REST · **PADAM Studio** (Win / Linux / macOS) · **Android APK** · Chrome / Firefox / VS Code extensions | Claude Code · Claude Desktop · Cursor · VS Code · Windsurf · Codex · Antigravity + 4 unified web portals |
 | **Data &amp; Encryption Boundaries** | L2 local SQLite (`PRAGMA secure_delete = ON`, pair with OS FDE for data-at-rest); per-record `AES-256-GCM` client-side encryption for optional L3 Arweave / backups / sync &amp; crypto-shredding (`padam protect-keys`) | Hosted Neon PostgreSQL vault + optional client-side per-record `AES-256-GCM` Arweave anchoring + full Markdown/JSON export anytime |
 | **Security Controls** | 4-Ring **Agentic Shield**: owner quarantine (`PADAM_STRICT=1`), pre-write DLP secret masking, 128-bit nonce data fencing, SHA-256 MCP tool-schema pinning, outbound payee-swap guard, `Apache-2.0` CI Action (`SARIF 2.1.0`) | Scoped memory-only keys (`{"scope":"memory"}`), write secret masking, command filter, fenced read output, live [`scripts/conformance.py`](https://github.com/MaksimGalatin/aifa-memory-mcp) verifier |
-| **Verified Listings** | Official MCP Registry (`io.github.MaksimGalatin/padam-nocturne`), PyPI, HOL Guard (`#7505`), `mcptry` (`30/30` listing), `Sagargupta16` | Official MCP Registry (`works.aifa/aifa-memory`), HOL Guard (`#8324`), `mcptry` (`Working 99`, `Security A`), Glama (`v2.1.0`), `Sagargupta16` |
+| **Verified Listings** | Official MCP Registry (`io.github.MaksimGalatin/padam-nocturne`), PyPI, HOL Guard (`#7505`), `mcptry` (`30/30` listing), `Sagargupta16` | Official MCP Registry (`works.aifa/aifa-memory`), HOL Guard (`#8324`), `mcptry` (`Working 99`, `Security A`), Glama (`v2.3.0`), `Sagargupta16` |
 | **Exact License** | **`AGPL-3.0-only`** (Core &amp; Studio) · **`Apache-2.0`** (GitHub CI Action) · **Commercial License / MSA** | **`MIT`** (Docs, Registry Manifest, Configs &amp; Conformance Runner) · **CODE Platform Terms** (Hosted SaaS) |
 
 ---
@@ -81,11 +81,11 @@
 We keep our security engine open, inspectable, and free forever for individual and local workflows while protecting against closed-source SaaS appropriation:
 
 - **Does using `padam-nocturne` locally via MCP with Claude Code / Cursor / VS Code require open-sourcing my project?**
-  **No.** Running `padam-nocturne` locally as a standalone MCP tool or desktop app alongside your proprietary codebase does **not** trigger AGPL-3.0 copyleft on your own code.
+  **No.** Installing and running `padam-nocturne` (`v0.8.0+`) locally for personal or internal business memory and security is **free** under **`PADAM License 1.0`** (`LicenseRef-PADAM-1.0`), with zero copyleft effect on your own codebase; optional Earning features carry a `15%` (assisted / TOP-100) or `20%` (autopilot) commission to CODE Eternal LLC.
 - **Can I use the PADAM Agentic Shield GitHub Action in private corporate repositories?**
   **Yes.** `.github/actions/padam-agentic-shield/` is licensed under **`Apache-2.0`** with an explicit patent grant — safe for private CI/CD pipelines.
 - **When is a Commercial License (MSA) required?**
-  Only when embedding/modifying `padam-nocturne` inside a proprietary closed-source product or hosted multi-tenant SaaS without AGPL source disclosure, or when an organization needs Zero-Telemetry DPAs, SLA, and IP indemnity ([`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com)).
+  When distributing modified copies, offering PADAM as a hosted SaaS/managed service, or OEM-embedding PADAM inside your own commercial product, or when an organization needs Zero-Telemetry DPAs, SLA, and IP indemnity ([`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com)).
 
 ---
 
