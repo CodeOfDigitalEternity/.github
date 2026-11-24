@@ -51,15 +51,15 @@
 
 ## Which Product Do You Need? (Local vs. Hosted Cloud)
 
-| Capability | [**`PADAM · NOCTURNE`**](https://github.com/MaksimGalatin/padam-nocturne) (`v0.8.0`) | [**`AIfa Memory MCP`**](https://github.com/MaksimGalatin/aifa-memory-mcp) (`v2.3.0` · `18 tools`) |
+| Capability | [**`PADAM · NOCTURNE`**](https://github.com/MaksimGalatin/padam-nocturne) (`v0.8.0`) | [**`AIfa Memory MCP`**](https://github.com/MaksimGalatin/aifa-memory-mcp) (`v2.3.0` · `19 tools`) |
 |---|---|---|
 | **Architecture** | **100% Local** — single SQLite file on your machine (`$0` cloud telemetry) | **Hosted Cloud** — Streamable HTTP endpoint (`https://aifa.works/api/mcp`) |
 | **Quick Start** | `uvx padam-nocturne` · `pip install padam-nocturne && padam setup --all` | Connect URL + per-user `Authorization: Bearer` key from [aifa.works/mcp](https://aifa.works/mcp) |
-| **Apps &amp; Clients** | MCP (`13` clients) · CLI · REST · **PADAM Studio** (Win / Linux / macOS) · **Android APK** · Chrome / Firefox / VS Code extensions | Claude Code · Claude Desktop · Cursor · VS Code · Windsurf · Codex · Antigravity + 4 unified web portals |
+| **Apps &amp; Clients** | MCP (`13` clients) · CLI · REST · **PADAM Studio** (Win / Linux / macOS) · **Android APK** · **Digital Phoenix Node v1.1** · Chrome / Firefox / VS Code extensions | Claude Code · Claude Desktop · Cursor · VS Code · Windsurf · Codex · Antigravity + 4 unified web portals |
 | **Data &amp; Encryption Boundaries** | L2 local SQLite (`PRAGMA secure_delete = ON`, pair with OS FDE for data-at-rest); per-record `AES-256-GCM` client-side encryption for optional L3 Arweave / backups / sync &amp; crypto-shredding (`padam protect-keys`) | Hosted Neon PostgreSQL vault + optional client-side per-record `AES-256-GCM` Arweave anchoring + full Markdown/JSON export anytime |
 | **Security Controls** | 4-Ring **Agentic Shield**: owner quarantine (`PADAM_STRICT=1`), pre-write DLP secret masking, 128-bit nonce data fencing, SHA-256 MCP tool-schema pinning, outbound payee-swap guard, `Apache-2.0` CI Action (`SARIF 2.1.0`) | Scoped memory-only keys (`{"scope":"memory"}`), write secret masking, command filter, fenced read output, live [`scripts/conformance.py`](https://github.com/MaksimGalatin/aifa-memory-mcp) verifier |
 | **Verified Listings** | Official MCP Registry (`io.github.MaksimGalatin/padam-nocturne`), PyPI, HOL Guard (`#7505`), `mcptry` (`30/30` listing), `Sagargupta16` | Official MCP Registry (`works.aifa/aifa-memory`), HOL Guard (`#8324`), `mcptry` (`Working 99`, `Security A`), Glama (`v2.3.0`), `Sagargupta16` |
-| **Exact License** | **`AGPL-3.0-only`** (Core &amp; Studio) · **`Apache-2.0`** (GitHub CI Action) · **Commercial License / MSA** | **`MIT`** (Docs, Registry Manifest, Configs &amp; Conformance Runner) · **CODE Platform Terms** (Hosted SaaS) |
+| **Exact License** | **`PADAM License 1.0`** (`v0.8.0+`, `$0` local, 24m → `Apache-2.0`; `15%/20%` Earning) · **`Apache-2.0`** (CI Action &amp; Shield Lite) · **Commercial MSA v3.0** | **`MIT`** (Docs, Registry Manifest, Configs &amp; Conformance Runner) · **CODE Platform Terms** (Hosted SaaS) |
 
 ---
 
@@ -67,16 +67,16 @@
 
 | Repository / Product | Role | Exact License |
 |---|---|---|
-| [**`MaksimGalatin/padam-nocturne`**](https://github.com/MaksimGalatin/padam-nocturne) | Local SQLite AI memory (`v0.8.0`, `1,704` automated tests), **PADAM Agentic Shield**, **PADAM Studio** (Win/Linux/macOS), signed **Android APK**, browser &amp; VS Code extensions, optional L3 anchoring (`Arweave` + `Solana` + `Bitcoin OTS`) | **`AGPL-3.0-only`** (Core &amp; Studio) · **`Apache-2.0`** (`.github/actions/padam-agentic-shield/`) · **Commercial MSA** |
-| [**`MaksimGalatin/padam-shield-mcp`**](https://github.com/MaksimGalatin/padam-shield-mcp) | Stateless, container-first MCP &amp; prompt security gateway (`PADAM Shield Lite`, Docker MCP Registry target, PCI DSS 4.0.1 SRI checker, zero AGPL code) | **`Apache-2.0`** ([`LICENSE`](https://github.com/MaksimGalatin/padam-shield-mcp/blob/main/LICENSE)) |
-| [**`MaksimGalatin/aifa-memory-mcp`**](https://github.com/MaksimGalatin/aifa-memory-mcp) | Hosted Streamable HTTP MCP specification (`v2.0.0`), client templates, `server.json` manifest, `HOSTED-POLICY.md`, and live `scripts/conformance.py` verifier | **`MIT`** (Public repo docs/examples/conformance) · **CODE Platform Terms** (Closed-source hosted backend) |
+| [**`MaksimGalatin/padam-nocturne`**](https://github.com/MaksimGalatin/padam-nocturne) | Local SQLite AI memory (`v0.8.0`, `1,762` tests), **PADAM Agentic Shield**, **PADAM Studio** (Win/Linux/macOS), signed **Android APK**, **Digital Phoenix Node v1.1**, browser &amp; VS Code extensions, optional L3 anchoring (`Arweave` + `Solana` + `Bitcoin OTS`) | **`PADAM License 1.0`** (`0.8.0+`, 24m → `Apache-2.0`; `<=0.7.2` `AGPL-3.0-only`) · **`Apache-2.0`** (CI Action) · **Commercial MSA v3.0** |
+| [**`MaksimGalatin/padam-shield-mcp`**](https://github.com/MaksimGalatin/padam-shield-mcp) | Stateless, container-first MCP &amp; prompt security gateway (`PADAM Shield Lite`, Docker MCP Registry target, PCI DSS 4.0.1 SRI checker, pure Apache-2.0, zero PADAM 1.0 / AGPL code) | **`Apache-2.0`** ([`LICENSE`](https://github.com/MaksimGalatin/padam-shield-mcp/blob/main/LICENSE)) |
+| [**`MaksimGalatin/aifa-memory-mcp`**](https://github.com/MaksimGalatin/aifa-memory-mcp) | Hosted Streamable HTTP MCP specification (`v2.3.0`, 19 live tools), client templates, `server.json` manifest, `HOSTED-POLICY.md`, and live `scripts/conformance.py` verifier | **`MIT`** (Public repo docs/examples/conformance) · **CODE Platform Terms** (Closed-source hosted backend) |
 | [**`MaksimGalatin/aifa-biobench`**](https://github.com/MaksimGalatin/aifa-biobench) | Open, Bitcoin-timestamped FlyWire v783 connectome retrieval &amp; agent benchmarks — publishing both wins and baseline losses verbatim | **`PolyForm Noncommercial 1.0.0`** · **Commercial Pro License** |
 | **Browser Express Scanner ([`aifa.works/shield`](https://aifa.works/shield))** | 100% client-side `mcp.json` &amp; Web SRI/CSP security checker running strictly inside your browser tab (zero data uploaded) | **Free public web tool** (CODE Eternal LLC) |
 | **Unified 4-Site Ecosystem** | `aifa.works` · `codeofdigitaleternity.com` · `aifa.digital` · `radiocode.space` — AIfa cabinet, `AIfaFocus` accessibility audits, `PADAM Agentic Shield` | **Commercial SaaS &amp; [CODE Platform Terms](https://www.codeofdigitaleternity.com/code-terms-of-service-ethical-protection-statement)** |
 
 ---
 
-## Clear Licensing Architecture &amp; AGPL-3.0 FAQ
+## Clear Licensing Architecture &amp; PADAM License 1.0 FAQ
 
 We keep our security engine open, inspectable, and free forever for individual and local workflows while protecting against closed-source SaaS appropriation:
 
@@ -91,6 +91,6 @@ We keep our security engine open, inspectable, and free forever for individual a
 
 ## Measured, Not Claimed — Security Transparency
 
-- **Reproducible self-reported suites (offline, `$0`):** `1,704` automated tests on `v0.8.0`, `214/214` public red-team cases (`redteam/public_cases.jsonl`), `AIFaSecurity-100` (`Grade S 100/100`, self-reported pending independent external audit), `LongMemEval-S` retrieval (`97.0%` top-5 / `99.2%` top-10 vs `96.0%` / `97.7%` plain BM25).
+- **Reproducible self-reported suites (offline, `$0`):** `1,762` automated tests collected on `v0.8.0`, `214/214` public red-team cases (`redteam/public_cases.jsonl`), `AIFaSecurity-100` (`Grade S 100/100`, self-reported pending independent external audit), `LongMemEval-S` retrieval (`97.0%` top-5 / `99.2%` top-10 vs `96.0%` / `97.7%` plain BM25).
 - **Honest limitations first:** Read [`docs/SECURITY_REVIEW.md`](https://github.com/MaksimGalatin/padam-nocturne/blob/main/docs/SECURITY_REVIEW.md) — including *"What still gets through"*, every real bug we shipped and fixed, and our open Red Team Challenge.
 - **Responsible Disclosure:** Report vulnerabilities privately to [`contact@codeofdigitaleternity.com`](mailto:contact@codeofdigitaleternity.com) (see [`SECURITY.md`](https://github.com/CodeOfDigitalEternity/.github/blob/main/SECURITY.md)).
